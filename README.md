@@ -1,4 +1,4 @@
-## Selecting for Stability: Ensemble proximity as a criterion for lower out-of-sample prediction variance.
+## Selecting for Stability: Choose the Model Closest to the Ensemble
 
 Neural networks trained with different random seeds produce models with similar accuracy but systematically different predictions on individual examples. This repository contains code to reproduce the experiments showing that selecting the model whose predictions most closely resemble the ensemble mean reduces out-of-sample prediction variance.
 
